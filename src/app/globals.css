@@ -114,10 +114,12 @@ p {
 }
 
 .sec-hd {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 800;
   line-height: 50px;
   letter-spacing: -1.2px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .card-title {
@@ -127,7 +129,7 @@ p {
 }
 
 .card-title-sm {
- font-size: 17px;
+  font-size: 17px;
   font-weight: 700;
 }
 
@@ -155,11 +157,27 @@ p {
 
 .theme-btn {
   font-family: var(--font-poppins), sans-serif;
+}
 
+.link {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.active {
+  color: var(--theme-color) !important;
+}
+
+.active:focus:after,
+.active:after {
+  width: 100% !important;
+  left: 0% !important;
 }
 
 
-/* ---------Hover link---------- */
+
+/* ---------Hover-link---------- */
 .hover-link {
   cursor: pointer;
   position: relative;
@@ -206,17 +224,24 @@ p {
 }
 
 .icon-box img {
-    width: auto;
-    height: auto;
-    max-width: 65%;
-    max-height: 65%;
-    filter: invert(53%) sepia(67%) saturate(417%) hue-rotate(127deg) brightness(184%) contrast(95%);
+  width: auto;
+  height: auto;
+  max-width: 65%;
+  max-height: 65%;
+  filter: invert(53%) sepia(67%) saturate(417%) hue-rotate(127deg) brightness(184%) contrast(95%);
 }
 
 
 /* ----------card--------- */
 .card-para {
   font-size: 15px;
+}
+
+
+
+/* ----------Image Card---------- */
+.card__content {
+  background-color: var(--theme-color);
 }
 
 /* ===============================
@@ -301,8 +326,33 @@ p {
   font-size: 70px;
   letter-spacing: -2.1px;
   line-height: 70px;
+  text-transform: none;
 }
 
 .hero-btn {
   font-size: 18px;
+}
+
+
+
+/* -------Bright Sec-------- */
+.bright-title {
+  font-size: 45px !important;
+  text-transform: none;
+}
+
+
+/* ---------Portfolio sec-------- */
+.port-card {
+  background-position: top center !important;
+  background-size: cover !important;
+  transition: 5s;
+}
+
+.port-card2 {
+  transition: 5s !important;
+}
+
+.port-card:hover {
+  background-position: bottom center !important;
 }
