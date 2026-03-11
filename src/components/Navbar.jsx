@@ -78,7 +78,7 @@ const Navbar = () => {
                                     Home
                                 </a>
                                 <a
-                                    href="#"
+                                    href="/about"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     About

@@ -1,0 +1,165 @@
+[
+    {
+        "title": "Website Development",
+        "cardContent": "Elevate your business with our website development services. A fully-functional and responsive website to establish unassailable competitive edge that wins customers, builds credibility, and drives sales.",
+        "iconSrc": "/images/website-development.svg",
+        "portfolioUrls": [
+            {
+                "imageUrl": "/images/port-web-1.jpg"
+            },
+            {
+                "imageUrl": "/images/port-web-2.jpg"
+            },
+            {
+                "imageUrl": "/images/port-web-3.jpg"
+            },
+            {
+                "imageUrl": "/images/port-web-4.jpg"
+            },
+            {
+                "imageUrl": "/images/port-web-5.png"
+            },
+            {
+                "imageUrl": "/images/port-web-6.png"
+            },
+            {
+                "imageUrl": "/images/port-web-7.png"
+            },
+            {
+                "imageUrl": "/images/port-web-8.jpg"
+            },
+            {
+                "imageUrl": "/images/port-web-9.png"
+            },
+            {
+                "imageUrl": "/images/port-web-10.jpg"
+            },
+            {
+                "imageUrl": "/images/port-web-11.png"
+            },
+            {
+                "imageUrl": "/images/port-web-12.png"
+            }
+        ]
+    },
+    {
+        "title": "Ecommerce",
+        "cardContent": "We help you beat the competition in today’s digital marketplace by creating seamless shopping experiences for your customers. Expand your reach beyond the geographical boundaries.",
+        "iconSrc": "/images/ecommerce.svg",
+        "portfolioUrls": [
+            {
+                "imageUrl": "/images/port-ecommrce-1.png"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-2.jpg"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-3.jpg"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-4.jpg"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-5.jpg"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-6.jpg"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-7.png"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-8.png"
+            },
+            {
+                "imageUrl": "/images/port-ecommrce-9.png"
+            }
+        ]
+    },
+    {
+        "title": "Animations",
+        "cardContent": "Pro Designers Agency understands the importance of web applications in today’s competitive digital marketplace. This is why we help businesses maximize their reach while boosting customer engagement through innovative web applications.",
+        "iconSrc": "/images/animation.svg",
+        "portfolioUrls": [
+            {
+                "imageUrl": "/images/port-animation-1.png",
+                "videoUrl": "/videos/port-animation-1.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-2.png",
+                "videoUrl": "/videos/port-animation-2.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-3.png",
+                "videoUrl": "/videos/port-animation-3.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-4.png",
+                "videoUrl": "/videos/port-animation-4.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-5.png",
+                "videoUrl": "/videos/port-animation-5.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-6.png",
+                "videoUrl": "/videos/port-animation-6.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-7.png",
+                "videoUrl": "/videos/port-animation-7.mp4"
+            },
+            {
+                "imageUrl": "/images/port-animation-8.png",
+                "videoUrl": "/videos/port-animation-8.mp4"
+            }
+        ]
+    },
+    {
+        "title": "Branding",
+        "cardContent": "Let the word out, become a fierce competitor and enhance your customer loyalty through effective branding solutions",
+        "iconSrc": "/images/branding.svg",
+        "portfolioUrls": [
+            {
+                "imageUrl": "/images/port-branding-1.png"
+            },
+            {
+                "imageUrl": "/images/port-branding-2.png"
+            },
+            {
+                "imageUrl": "/images/port-branding-4.png"
+            },
+            {
+                "imageUrl": "/images/port-branding-3.png"
+            },
+            {
+                "imageUrl": "/images/port-branding-5.png"
+            },
+            {
+                "imageUrl": "/images/port-branding-6.png"
+            },
+            {
+                "imageUrl": "/images/port-branding-7.png"
+            }
+        ]
+    },
+    {
+        "title": "Mobile Applications",
+        "cardContent": "Expand your services and grab attention of millions of users through visually-appealing and easy-to-use mobile applications that enhance your brand’s visibility.",
+        "iconSrc": "/images/mobile-application.svg",
+        "portfolioUrls": [
+            {
+                "imageUrl": "/images/port-mobile-1.jpg"
+            },
+            {
+                "imageUrl": "/images/port-mobile-2.jpg"
+            },
+            {
+                "imageUrl": "/images/port-mobile-3.jpg"
+            },
+            {
+                "imageUrl": "/images/port-mobile-4.jpg"
+            }
+        ]
+    }
+]

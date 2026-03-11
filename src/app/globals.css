@@ -11,6 +11,7 @@
   --bg-blue: #007aff;
   --text-color: #fff;
   --link-color: #fff;
+  --border-color: rgba(255, 255, 255, 0.15);
   --transition: all 0.5s ease-in-out;
 }
 
@@ -123,7 +124,7 @@ p {
 }
 
 .card-title {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 800;
   font-family: var(--font-poppins), sans-serif;
 }
@@ -161,7 +162,7 @@ p {
 
 .link {
   font-family: var(--font-poppins), sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
 }
 
@@ -233,6 +234,11 @@ p {
 
 
 /* ----------card--------- */
+.card {
+      border: 1px solid var(--border-color);
+      background-color: var(--bg-color);
+}
+
 .card-para {
   font-size: 15px;
 }
@@ -248,33 +254,27 @@ p {
    Custom Scrollbar (WebKit Browsers)
    =============================== */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 5px;
   height: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--bg-color);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--theme-color);
   border-radius: 10px;
-  border: 2px solid var(--bg-color);
   transition: background-color 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--bg-brown);
+  cursor: pointer;
 }
 
 /* ===============================
    Firefox Scrollbar
    =============================== */
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--theme-color) var(--bg-color);
-}
 
 .inline_block li {
   display: inline-block;
@@ -346,13 +346,21 @@ p {
 .port-card {
   background-position: top center !important;
   background-size: cover !important;
-  transition: 5s;
+  transition: background 9s, transform 0.5s;
 }
 
-.port-card2 {
-  transition: 5s !important;
-}
 
 .port-card:hover {
   background-position: bottom center !important;
+  transform: scale(1.1);
+}
+
+
+/* ----------packages--------- */
+.packages-sec .sc-aXZVf.ikTrFB{
+width: 100%;
+}
+
+.packages svg {
+  color: var(--theme-color);
 }
