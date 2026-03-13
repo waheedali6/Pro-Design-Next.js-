@@ -69,7 +69,7 @@ img {
 /* ===============================
    Form Elements
    =============================== */
-input,
+/* input,
 select,
 textarea {
   font-family: inherit;
@@ -78,14 +78,14 @@ textarea {
   appearance: none;
   border: none;
   background: transparent;
-}
+} */
 
-input:focus,
+/* input:focus,
 select:focus,
 textarea:focus {
   outline: none;
   transition: var(--transition);
-}
+} */
 
 /* ===============================
    Lists & Paragraphs
@@ -235,8 +235,8 @@ p {
 
 /* ----------card--------- */
 .card {
-      border: 1px solid var(--border-color);
-      background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-color);
 }
 
 .card-para {
@@ -244,11 +244,23 @@ p {
 }
 
 
-
 /* ----------Image Card---------- */
 .card__content {
   background-color: var(--theme-color);
 }
+
+
+/* ------Swiper-------- */
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--theme-color) !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  opacity: .69 !important;
+}
+
 
 /* ===============================
    Custom Scrollbar (WebKit Browsers)
@@ -357,8 +369,8 @@ p {
 
 
 /* ----------packages--------- */
-.packages-sec .sc-aXZVf.ikTrFB{
-width: 100%;
+.packages-sec .sc-aXZVf.ikTrFB {
+  width: 100%;
 }
 
 .packages svg {

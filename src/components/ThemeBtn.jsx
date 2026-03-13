@@ -1,12 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ThemeBtn = ({title, link = "#", className = "rounded py-3 px-1.5", textClass}) => {
+const ThemeBtn = ({title, link = "#", className = "rounded py-3 px-1.5", textClass, children}) => {
   return (
     <StyledWrapper>
       <a href={link} className={`theme-btn btn-17 theme-color-bg ${className}`}>
         <span className="text-container">
-          <span className={`text ${textClass}`}>{title}</span>
+          <span className={`text ${textClass}`}>{title || children}</span>
         </span>
       </a>
     </StyledWrapper>

@@ -4,6 +4,9 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Portfolio from "../components/Portfolio";
 import ServicesSec from "../components/ServicesSec";
+import ReviewSec from "@/components/ReviewSec";
+import DiscussSec from "@/components/DiscussSec";
+import FormSec from "@/components/FormSec";
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <Portfolio />
       <ServicesSec />
       <Packages />  
+      <ReviewSec />
+      <DiscussSec />
+      <FormSec />
     </>
   );
 }

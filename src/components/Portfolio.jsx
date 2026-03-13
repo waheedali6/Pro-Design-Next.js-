@@ -31,7 +31,6 @@ const portfolio = () => {
                             <div className="grid grid-cols-3 gap-10 mt-15" key={index}>
                                 {item.portfolioUrls.map((i, index) => (
                                     <a href={item.title === "Animations" ? i.videoUrl : i.imageUrl} data-fancybox data-caption="Single image" key={index}>
-                                        {console.log(i.imageUrl)}
                                         <div className="card port-card h-85 rounded" style={{
                                             background: `url(${i.imageUrl})`
                                         }}>

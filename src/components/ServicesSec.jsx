@@ -17,12 +17,13 @@ const ServicesSec = () => {
             <div className="max-w-6xl mx-3 lg:mx-auto">
                 <h2 className="sec-hd">OUR SERVICES</h2>
                 <div className="grid grid-cols-3 gap-10 mt-15">
-                    {allServices.map((item) => (
+                    {allServices.map((item, i) => (
                         <Card 
                         iconSrc={item.iconSrc}
                         className="min-h-70 p-3"
                         title={item.title}
                         content={item.cardContent}
+                        key={i}
                          />
                     ))
 
