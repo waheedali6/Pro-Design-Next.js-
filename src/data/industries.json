@@ -1,0 +1,54 @@
+[
+    {
+        "title": "Retail and E-Commerce",
+        "cardContent": "We understand what makes an e-commerce strategy truly effective.",
+        "iconSrc": "/images/retail-and-e-commerce.png"
+
+    },
+    {
+        "title": "Medical",
+        "cardContent": "The medical industry has a lot of nuances surrounding privacy and confidentiality. Pro Designers Agency has experience successfully navigating these.",
+        "iconSrc": "/images/medical.png"
+    },
+    {
+        "title": "Legal",
+        "cardContent": "The care and ethics you take with your business should flow into your online strategy. Our team understand both.",
+        "iconSrc": "/images/legal.png"
+    },
+    {
+        "title": "Government",
+        "cardContent": "We create proposals and respond to tenders in a way that enables government departments to understand their return on investment.",
+        "iconSrc": "/images/government.png"
+    },
+    {
+        "title": "Utilities",
+        "cardContent": "Working with brands, such as Water Corporation, means we understand the digital marketing needs of large-scale utilities.",
+        "iconSrc": "/images/utilities.png"
+    },
+    {
+        "title": "Real Estate",
+        "cardContent": "Real estate isn’t the only industry all about location, location, location. Be found when it matters most.",
+        "iconSrc": "/images/real-estate.png"
+    },
+    {
+        "title": "Technology",
+        "cardContent": "Being an innovative technology company means your needs are constantly changing. Our team are experienced in creating strategies that adapt and evolve with you.",
+        "iconSrc": "/images/technology.png"
+    },
+    {
+        "title": "Finance",
+        "cardContent": "We know you like numbers. We do too. In a heavily contested digital marketplace, Pro Designers Agency can create truly optimised campaigns that deliver on the business metrics that matter.",
+        "iconSrc": "/images/finance.png"
+    },
+    {
+        "title": "Beauty",
+        "cardContent": "Beauty is no longer confined to magazines or in-stores. Understanding where your customers are spending their time and money online is vital.",
+        "iconSrc": "/images/beauty.png"
+    },
+    {
+        "title": "Education",
+        "cardContent": "We specialise in putting education providers front and centre so they attract the right pupils and parents.",
+        "iconSrc": "/images/education.png"
+    }
+    
+]

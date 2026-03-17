@@ -53,7 +53,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--theme-color);
+  color: var(--theme-color) !important;
   outline: none;
 }
 
@@ -166,6 +166,13 @@ p {
   font-weight: 500;
 }
 
+.title {
+  font-size: 70px;
+  letter-spacing: -2.1px;
+  line-height: 70px;
+  text-transform: none;
+}
+
 .active {
   color: var(--theme-color) !important;
 }
@@ -174,6 +181,10 @@ p {
 .active:after {
   width: 100% !important;
   left: 0% !important;
+}
+
+.grey-color {
+  color: rgb(255 254 255 / 55%) !important;
 }
 
 
@@ -237,10 +248,26 @@ p {
 .card {
   border: 1px solid var(--border-color);
   background-color: var(--bg-color);
+  transition: var(--transition);
 }
 
 .card-para {
   font-size: 15px;
+}
+
+.hover-card:hover{
+  background-color: var(--theme-color);
+  color: #fff !important;
+  transform: scale(1.1);
+  border-color: #fff;
+}
+
+.hover-card svg {
+  transition: var(--transition) !important;
+}
+
+.hover-card:hover svg{
+  color: #fff !important;
 }
 
 
@@ -334,12 +361,7 @@ p {
 /* /////////////////Home Page////////////////// */
 
 /* ------------Hero---------- */
-.hero-title {
-  font-size: 70px;
-  letter-spacing: -2.1px;
-  line-height: 70px;
-  text-transform: none;
-}
+
 
 .hero-btn {
   font-size: 18px;
@@ -375,4 +397,67 @@ p {
 
 .packages svg {
   color: var(--theme-color);
+}
+
+
+
+/* -------footer-------- */
+.footer .link {
+  font-size: 15px;
+  font-weight: 500;
+  color: rgb(255 255 255 / 85%);
+}
+
+.footer-title {
+  font-size: 20px;
+}
+
+
+
+/* ---------banner-------- */
+.banner-title {
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.03em;
+  font-size: 65px;
+  line-height: 64px;
+  text-transform: none;
+}
+
+.banner-pd {
+  padding: 9% 0 8%;
+}
+
+
+
+/* ---------slider sec------- */
+.slider-sec .card:hover .num{
+  color: #fff;
+}
+
+.slider-sec .sec-hd {
+  text-transform: none !important;
+}
+.num {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: var(--font-poppins), sans-serif;
+  color: #646464;
+  position: absolute;
+  top: 7px;
+  left: 15px;
+  transition: var(--transition) !important;
+}
+
+
+
+/* --------page section--------- */
+.sec-hd {
+    line-height: 60px !important;
+}
+
+/* --------center section--------- */
+.center-sec h2{
+  font-size: 50px;
+text-transform: none !important;
 }

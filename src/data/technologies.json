@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Python",
+        "cardContent": "Python developers from Pro Designers Agency are available for both ad-hoc and long-term projects, providing flexible support tailored to your needs.",
+        "iconSrc": "/images/python.svg"
+
+    },
+    {
+        "title": ".Net",
+        "cardContent": "Explore our ASP.NET web development services renowned for delivering results, scalability, and top-notch quality.",
+        "iconSrc": "/images/dotnet.svg"
+    },
+    {
+        "title": "PHP",
+        "cardContent": "Engage our PHP experts for developing versatile web applications, offering greater flexibility to customize features based on client requirements, resulting in streamlined and tailored applications.",
+        "iconSrc": "/images/php.svg"
+    },
+    {
+        "title": "Java",
+        "cardContent": "Trust in our years of experience and expertise in developing a wide range of Java-based products to perfection.",
+        "iconSrc": "/images/java.svg"
+    },
+    {
+        "title": "Node.JS",
+        "cardContent": "Surpass your competitors and elevate your business with our custom Node.js web applications.",
+        "iconSrc": "/images/node-js.svg"
+    },
+    {
+        "title": "Angular",
+        "cardContent": "Leverage the power of AngularJS with our developers, accessible for both ad-hoc and long-term projects, and benefit from a 50% cost reduction.",
+        "iconSrc": "/images/angular.svg"
+    },
+    {
+        "title": "Vue.JS",
+        "cardContent": "Expand and enrich your business with our innovative Vue.js digital solutions, crafted by experienced developers proficient in Vue.js technology.",
+        "iconSrc": "/images/vue-js.svg"
+    },
+    {
+        "title": "React.JS",
+        "cardContent": "Gain advantage from our team of dedicated React JS developers, proficient in delivering sophisticated front-end solutions with cutting-edge technologies.",
+        "iconSrc": "/images/react-js.svg"
+    },
+    {
+        "title": "iOS",
+        "cardContent": "Collaborate with our dedicated iOS developers, committed to delivering iOS apps of unparalleled quality.",
+        "iconSrc": "/images/ios.svg"
+    },
+    {
+        "title": "Android",
+        "cardContent": "Recruit Android App developers from our talented pool to craft top-tier applications for your business.",
+        "iconSrc": "/images/android.svg"
+    },
+    {
+        "title": "Xamarin",
+        "cardContent": "Tap into the expertise of our leading Xamarin app development team, boasting highly skilled and experienced developers.",
+        "iconSrc": "/images/xamarin.svg"
+    },
+    {
+        "title": "Laravel",
+        "cardContent": "Discover the creativity and efficiency of the Laravel PHP framework, celebrated for its straightforward authentication techniques, object-oriented libraries, MVC support, and the Artisan tool.",
+        "iconSrc": "/images/laravel.svg"
+    },
+    {
+        "title": "Django",
+        "cardContent": "Leverage the experience and skill of our Django developers to deliver customized solutions that cater to your unique business requirements.",
+        "iconSrc": "/images/django.svg"
+    },
+    {
+        "title": "MEAN",
+        "cardContent": "Elevate and expand your business with our flexible and innovative MEAN stack development solutions. Our team of highly esteemed developers possesses the skills and experience needed for MEAN stack development. We offer a comprehensive range of MEAN stack development services.",
+        "iconSrc": "/images/mean.svg"
+    }
+]

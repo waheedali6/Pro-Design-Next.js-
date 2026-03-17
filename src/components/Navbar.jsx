@@ -1,6 +1,7 @@
 import ThemeBtn from "./ThemeBtn";
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import Link from "next/link";
 import { FaPhoneAlt } from "react-icons/fa";
 
 
@@ -70,29 +71,29 @@ const Navbar = () => {
 
                         <div className="flex items-center gap-3 xl:gap-6">
                             <div className="hidden md:flex gap-3 xl:gap-5">
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/"
                                     aria-current="page"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     Home
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                     href="/about"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     About
-                                </a>
+                                </Link>
 
                                 <Menu as="div" className="relative inline-block">
                                     <MenuButton className="inline-flex w-full justify-center gap-x-1.5 focus-visible:outline-0">
-                                        <a
-                                            href="#"
+                                        <Link
+                                            href="/services"
                                             className="hover-link font-medium text-xs xl:text-base inline-flex items-center"
                                         >
                                             Services
                                             <ChevronDownIcon aria-hidden="true" className="-mr-1 size-5" />
-                                        </a>
+                                        </Link>
 
                                     </MenuButton>
 
@@ -167,43 +168,43 @@ const Navbar = () => {
                                     </MenuItems>
                                 </Menu>
 
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/portfolio"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     Portfolio
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link
+                                    href="/packages"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     Packages
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link
+                                    href="/technologies"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     Technologies
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link
+                                    href="/industries"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     Industries
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link
+                                    href="solutions"
                                     className="hover-link font-medium text-xs xl:text-base"
                                 >
                                     Solutions
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                     href="#"
                                     className="font-medium text-xs xl:text-base hidden xl:inline-flex items-center gap-2"
                                 >
                                     <FaPhoneAlt className="size-4.5 theme-color" />
                                     (833) 390-1481
-                                </a>
+                                </Link>
                             </div>
                             <div className="hidden sm:block">
                                 <ThemeBtn title={"Get A Free Quote"} textClass="text-xs xl:text-base" />

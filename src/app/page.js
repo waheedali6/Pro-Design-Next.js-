@@ -7,6 +7,7 @@ import ServicesSec from "../components/ServicesSec";
 import ReviewSec from "@/components/ReviewSec";
 import DiscussSec from "@/components/DiscussSec";
 import FormSec from "@/components/FormSec";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,10 +17,11 @@ export default function Home() {
       <BrightsMindSec />
       <Portfolio />
       <ServicesSec />
-      <Packages />  
+      <Packages />
       <ReviewSec />
       <DiscussSec />
-      <FormSec />
+      <FormSec /> 
+      <Footer />
     </>
   );
 }

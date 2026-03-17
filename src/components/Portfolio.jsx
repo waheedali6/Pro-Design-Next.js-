@@ -4,7 +4,7 @@ import { Fancybox } from "@fancyapps/ui/dist/fancybox/";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import services from "@/data/services.json"
 
-const portfolio = () => {
+const Portfolio = () => {
     const [tab, setTab] = useState("Website Development");
     useEffect(() => {
         Fancybox.bind("[data-fancybox]", {});
@@ -46,4 +46,4 @@ const portfolio = () => {
     )
 }
 
-export default portfolio
+export default Portfolio
